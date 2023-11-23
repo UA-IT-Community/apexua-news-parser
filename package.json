@@ -4,12 +4,12 @@
   "private": true,
   "license": "MIT",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "src/dist/index.js",
   "scripts": {
     "build": "tsc",
     "build:changelog": "npx @discordx/changelog --src src",
     "dev": "ts-node-esm src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node src/dist/index.js",
     "watch": "nodemon --exec ts-node-esm src/index.ts"
   },
   "dependencies": {
