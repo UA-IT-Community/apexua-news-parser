@@ -1,0 +1,1 @@
+worker: build/main.js
