@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "main": "build/index.js",
+  
   "scripts": {
     "build": "tsc",
     "build:changelog": "npx @discordx/changelog --src src",
@@ -36,7 +37,7 @@
     "typescript": "5.2.2"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
+    "node": ">=18.0.0 <19.0.0",
+    "npm": ">=8.0.0 <9.0.0"
   }
 }
